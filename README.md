@@ -10,6 +10,7 @@ Based on https://github.com/juliensimon/NodeApp
 
  * Node.js https://nodejs.org/en/
  * Eiffel  https://www.eiffel.org/
+   - At the moment if you want to use the Eiffel microservice you will need to checkout the updated ZMQ library from this branch: https://github.com/jvelilla/EiffelStudio/tree/es_zmq
  
 ## Microservices
  * Node.js + ZMQ 
