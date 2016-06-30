@@ -4,7 +4,7 @@ MicroserviceApp
 REST API build with Node.js and client with Angular.JS front-end.
 and simple microservice using ZMQ implemented with Node.js and Eiffel.
 
-Based on https://github.com/juliensimon/NodeApp and 
+Based on https://github.com/juliensimon/NodeApp  
 
 ## Requirements
 
