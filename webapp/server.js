@@ -34,7 +34,8 @@ var logger = new (winston.Logger)({
 
 // Create a database variable outside of the database connection callback to reuse the connection pool in your app.
 var db;
-var MONGODB_URI = "YOUR_MONGODB_URI";
+var MONGODB_URI = "mongodb://storagedb:testdb@ds023644.mlab.com:23644/storagedb";
+
 
 
 // Connect to the database before starting the application server.
