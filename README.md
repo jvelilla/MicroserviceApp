@@ -22,11 +22,12 @@ Based on https://github.com/juliensimon/NodeApp
 1. Download and Install Node.js
 2. Clone or Download this project.
 3. Install the required modules for Node.js webapp 
-  a. express
-  b. body-parser
-  c. winston
-  d. zmq (Please check the following doc before to install zqm https://github.com/JustinTulloss/zeromq.node/wiki/Installation)
-  e. mongodb
+  * express
+  * body-parser
+  * winston
+  * zmq (Please check the following doc before to install zqm https://github.com/JustinTulloss/zeromq.node/wiki/Installation)
+  * mongodb
+
   Go to the directory where you have download this project and do the following steps.
 
    ```
@@ -37,10 +38,9 @@ Based on https://github.com/juliensimon/NodeApp
    $>npm install zmq
    $>npm install mongodb
    ```
-4. Run the ZMQ service (Eiffel or Node.JS version
-   a. Eiffel version go to the services\eiffel and run it using EiffelStudio or commandline (be sure to have the *.lib and dlls of ZMQ in your PATH.
-
-   b. Node version go to the services\node and install the required modules (zmq) and run it using node service.js
+4. Run the ZMQ service (Eiffel or Node.JS version.
+    * Eiffel version go to the services\eiffel and run it using EiffelStudio or commandline (be sure to have the *.lib and dlls of ZMQ in your PATH.
+    * Node version go to the services\node and install the required modules (zmq) and run it using node service.js
 
 5. Run the Web App. Go to webapp and run the following command
 
