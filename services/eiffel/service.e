@@ -34,14 +34,15 @@ feature {NONE} -- Initialization
 			loop
 					--  Wait for next request from client
 				create l_message.default_create
-				l_socket.message_receive (l_message)
+				l_socket.receive_message (l_message)
 				io.put_string ("Processing: ")
 				io.put_new_line
 
 				create l_cstring.make_by_pointer (l_message.data)
 
-
+				io.put_string (l_cstring.string)
 					-- Do some work
+
 				l_env.sleep (1)
 
 					-- Send replay back to client
